@@ -1,0 +1,158 @@
+/* ----------------------------------
+        Minimo PSD to HTML-
+        Framework by Md. Rony Shaikh
+        Dept. of CSE, BSMRSTU.
+------------------------------------- */
+
+
+
+/*-----------------------------------
+   Responsive Using Media queries
+ ------------------------------------*/
+
+ /* 992px devices */
+ @media(max-width: 992px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+
+ 	.load-section .Load-more-btn .btn{
+ 		padding: 6px 15px;
+ 		transition: 0.5s;
+ 		cursor: pointer;
+
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ } 
+
+ /* 768px devices */
+ @media(max-width: 768px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ }
+
+  /* 556px devices */
+ @media(max-width: 556px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ } 
+
+
+ /* 480px devices */
+ @media(max-width: 480px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ }  
+
+ /* 320px devices */
+ @media(max-width: 320px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ } 
+
+/* 290px devices */
+ @media(max-width: 290px){
+ 	.header-section{
+ 		width: 1140px;
+ 	}
+ 	.banner-section{
+ 		width: 1140px;
+ 	}
+ 	.post-section{
+ 		width: 1140px;
+ 	}
+ 	.newsletter-section{
+ 		width: 1140px;
+ 	}
+ 	.load-section{
+ 		width: 1140px;
+ 	}
+ 	.footer-section{
+ 		width: 1140px;
+ 	}
+
+ } 
+

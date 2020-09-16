@@ -1,0 +1,327 @@
+/* ----------------------------------
+        Minimo PSD to HTML-
+        Framework by Md. Rony Shaikh
+        Dept. of CSE, BSMRSTU.
+------------------------------------- */
+
+
+
+/*-----------------------------------
+        Google Fonts
+ ------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/*-----------------------------------
+            Starter Framework
+ ------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+
+ a,a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------
+            Header Section
+ ------------------------------------*/
+.header-section{
+	width: 100%;
+	display: flow-root;
+	position: sticky;
+	top: 0;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	position: sticky;
+	top: 0;
+}
+
+.navbar .logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.nav-item{
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+.nav-item ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 55px;
+}
+.nav-item ul li a{
+	text-transform: uppercase;
+	color: #626262;
+}
+.nav-item ul li a:hover{
+	text-transform: uppercase;
+	color: #000;
+}
+
+/*-----------------------------------
+           Banner Section
+ ------------------------------------*/
+ .banner-section{
+ 	width: 100%;
+ 	display: flow-root;
+ }
+
+ .banner-section img{
+ 	width: 100%;
+ } 
+
+ .banner-section .banner-content{
+ 	padding: 52px;
+ }
+
+ .banner-section .banner-caps{
+ 	text-transform: uppercase;
+ 	color: #b4ad9e;
+ }
+
+ .banner-section .banner-heading{
+ 	margin: 22px 0px;
+ 	color: #626262;
+ }
+
+ .banner-section .banner-description{
+ 	color: #747474;
+ 	text-align: justify;
+ 	margin-bottom: 50px;
+ }
+ 
+
+ .banner-section .comment{
+ 	text-transform: uppercase;
+ 	color: #b4ad9e;
+ }
+/*-----------------------------------
+          Post and Gallery Section
+ ------------------------------------*/
+ .post-section{
+ 	width: 100%;
+ 	display: flow-root;
+ }
+.post-area{
+ 	padding:52px;
+}
+.post-section .post{
+	width: 100%;
+ 	float: left;
+ }
+.post-section .post-left{
+ 	width: 48%;
+ 	float: left;
+ }
+ .post-section .post-right{
+ 	width: 48%;
+ 	float: right
+ }
+
+ .post-left img{
+ 	width: 100%;
+ }
+.post-right img{
+ 	width: 100%;
+ }
+
+.post .img-caps{
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+
+.post .post-heading{
+	margin: 22px 0px;
+ 	color: #626262;
+}
+
+.post .post_description{
+	color: #747474;
+	text-align: justify;
+	margin-bottom: 100px;
+}
+
+/*-----------------------------------
+          Newsletter Section
+ ------------------------------------*/
+ .newsletter-section{
+ 	width: 100%;
+ 	display: flow-root;
+ 	background-color: #f0f0f0;
+ 	padding: 56px 0;
+ 	text-align: center;
+ }
+ .newsletter-section h1{
+ 	margin-bottom: 35px;
+ 	color: #333333;
+ 	letter-spacing: 1px;
+ 	font-size: 40px;
+
+ } 
+
+
+ .newsletter-section form input{
+ 	padding: 15px 0px;
+    width: 380px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+ }
+.newsletter-section form input:focus{
+ 	outline: none;
+ }
+
+.newsletter-section form{
+ 	position: relative;
+ }
+
+ .newsletter-section form img{
+ 	position: absolute;
+ 	left: 727px;
+    top: 20px;
+
+ }
+
+/*-----------------------------------
+          Load More Section
+ ------------------------------------*/
+ .load-section{
+ 	width: 100%;
+ 	display: flow-root;
+ }
+.load-area{
+ 	padding:52px;
+}
+.load-section .load{
+	width: 100%;
+ 	float: left;
+ }
+.load-section .load-left{
+ 	width: 48%;
+ 	float: left;
+ }
+ .load-section .load-right{
+ 	width: 48%;
+ 	float: right
+ }
+
+ .load-left img{
+ 	width: 100%;
+ }
+.load-right img{
+ 	width: 100%;
+ }
+
+.load .img-caps{
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+
+.load .load-heading{
+	margin: 22px 0px;
+ 	color: #626262;
+}
+
+.load .load_description{
+	color: #747474;
+	text-align: justify;
+	margin-bottom: 100px;
+}
+
+.Load-more-btn{
+	text-align: center;
+	margin: 20px 0;
+}
+.Load-more-btn .btn{
+	padding: 10px 25px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border: 1px solid #b4ad9e;
+    color: #626262;
+    transition: 0.5s;
+}
+
+.Load-more-btn .btn:hover{
+	cursor: pointer;
+	border: 1px solid #333;
+	transition: 0.5s;
+}
+.Load-more-btn .btn:focus{
+	outline: none;
+}
+
+
+/*-----------------------------------
+          Footer Section
+ ------------------------------------*/
+.footer-section{
+ 	width: 100%;
+ 	display: flow-root;
+ 	background-color: #f0f0f0;
+ 	margin-top: 120px;
+ 	padding: 30px 0;
+ }
+.footer-content{
+	width: 100%;
+	float: left;
+}
+ .footer-left{
+ 	width: 40%;
+    float: left;
+    padding-left: 52px;
+    margin-left: 0;
+
+ } 
+
+ .footer-left .terms{
+ 	padding-right: 30px;
+ } 
+
+ .footer-left a{
+ 	color: #000;
+ }
+.footer-right{
+ 	width:50%;
+ 	float: right;
+ 	text-align: right;
+ }
+
+ .footer-right span{
+ 	color: #000;
+ } 
+
+ .footer-right span i:first-child{
+ 	padding-left: 30px;
+ } 
+
+ .footer-right span i{
+ 	color: #626262;
+ 	padding-left: 10px;
+ } 
+
+ .footer-right span i:hover{
+ 	cursor: pointer;
+ }
+
+ 
